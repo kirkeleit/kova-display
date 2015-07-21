@@ -5,7 +5,6 @@
 
   /* http://stackoverflow.com/questions/4757061/which-ics-parser-written-in-php-is-good */
   function icsToArray() {
-    //$icsFile = file_get_contents("http://kova.no/Public/iCalendar.ashx?Organization=BRKH");
     $icsFile = file_get_contents("http://kova.no/Public/iCalendar.ashx?Organization=BRKH&Key=27763ced89ab49d6b395fca19c1a910c");
 
     $icsData = explode("BEGIN:", $icsFile);
@@ -51,7 +50,7 @@
   <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
   <meta http-equiv="CACHE-CONTROL" content="NO-CACHE" />
   <meta http-equiv="refresh" content="3600" />
-  <title>BRKH DS - KALENDER</title>
+  <title>KOVA DS - KALENDER</title>
   <style type="text/css">
     body {
       padding: 0px;
