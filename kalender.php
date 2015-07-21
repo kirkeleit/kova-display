@@ -5,7 +5,7 @@
 
   /* http://stackoverflow.com/questions/4757061/which-ics-parser-written-in-php-is-good */
   function icsToArray() {
-    $icsFile = file_get_contents("http://kova.no/Public/iCalendar.ashx?Organization=BRKH&Key=27763ced89ab49d6b395fca19c1a910c");
+    $icsFile = file_get_contents("http://kova.no/Public/iCalendar.ashx?Organization=x&Key=y");
 
     $icsData = explode("BEGIN:", $icsFile);
 
